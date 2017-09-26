@@ -1,0 +1,6 @@
+# python 3.6
+
+pip==9.0.1
+Django==1.11.5
+pyodbc==4.0.17
+django-pyodbc-azure==1.11.0
