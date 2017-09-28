@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'django_mssql_deb.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 DB_DRIVER = ''
 if os.name == 'nt':
-    DB_DRIVER = 'SQL Server Native Client 11.0'
+    DB_DRIVER = 'SQL Server'
 elif os.name == 'posix':
     DB_DRIVER = 'ODBC Driver 13 for SQL Server'
 DATABASES = {
